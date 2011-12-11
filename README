@@ -1,0 +1,19 @@
+Ruby::Subprocess
+
+  A port of Python's subprocess in Ruby
+
+cf)
+  http://docs.python.org/py3k/library/subprocess.html
+  http://www.python.jp/doc/release/library/subprocess.html
+
+TODO
+  * improve communicate with multiple I/O
+  * exception handling: exec, etc...
+  * communicate(input_io)
+  * check option
+  * other options: :shell, :preexec_fn, :executable, etc...
+  * support all "Replacing Older Functions with the subprocess Module"
+  * flush and close all other IOs
+  * see Kernel.spawn of Ruby 1.9
+  * etc...
+
